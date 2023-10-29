@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lista de tareas</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1>Lista de Tareas</h1>
+        <input type="text" id="nuevaTarea" placeholder="Ingrese una nueva Tarea">
+        <button id="agregar" onclick="agregarTarea()">Agregar</button>
+        <br>
+        <br>
+        <button id="mostrarTodo" onclick="mostrarTodo()">Todas las tareas</button>
+        <button id="mostrarPendientes" onclick="mostrarPendientes()">Tareas Pendientes</button>
+        <button id="mostrarCompletadas" onclick="mostrarCompletadas()">Tareas Completadas</button>
+        <ul id="listaTareas"></ul>
+        <footer>
+            Copyright (c) 2023. Todos los derechos reservados.
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
